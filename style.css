@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar {
+    height: 60px;
+    background-color:#0f1111;
+    color:white;
+    display: flex; justify-content: space-evenly; align-items: center;
+}
+.navlogo {
+    height: 50px; width: 100px;
+}
+.logo {
+    background-image:url("images\\amazon.png") ;
+    background-size: cover;
+    height: 30px; width: 100%;
+    margin-top: 10px;
+    
+}
+.border{
+    border: 1.5px solid transparent; padding: 0.50rem;
+}
+.border:hover{border: 1.5px solid white;}
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-second{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;  align-items: center;
+}
+.navsearch{
+    display: flex; justify-content: space-evenly; align-items: center;
+    background-color: #febd68;
+    width: 620px; height: 40px; border-radius: 4px;    
+}
+.navsearch select{
+    background-color: #f3f3f3; width: 10%;height: 100%;
+    text-align: center; border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px; border: none;
+}
+.navsearch input{
+    width: 85%; font-size: 1rem; border: none;
+    height: 95%;
+}
+.search-icon{
+    width: 45px; display: flex; justify-content: center; align-items: center;
+    font-size: 1.2rem; background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color:#0f1111
+}
+span{ font-size: 0.7rem;}
+.navsecond{
+    font-size: 0.85rem;font-weight: 700;
+}
+.navsearch:hover{border: 2px solid #f9b357;}
+.navcart{font-size: 30px; font-weight: 700;}
+.panel{height: 40px;background-color: #222f3d;
+       display: flex; justify-content: space-evenly;align-items: center;
+        color: white;}
+.panelops{width: 70%; font-size: 0.85rem;}
+.panelops p{display: inline;margin-left: 15px;}
+.paneldeals{font-size: 0.85rem;font-weight: 700;}
+.herosection{background-image: url("images\\image1.jpg");
+             background-size: cover; 
+             display: flex;justify-content: center;align-items: flex-end;
+             height: 300px;}
+.heromsg{background-color: white;color: black;
+        height: 40px;font-size: 0.85rem;
+        display: flex;justify-content: center;align-items:center;
+        margin-bottom: 25px; width: 97%;
+         }
+.heromsg a{color: rgb(20, 124, 193);}
+.shopsection{display: flex;justify-content: space-evenly;
+             background-color: rgb(250, 228, 236); flex-wrap: wrap;
+            }          
+.box{border: 2px solid white; background-color: white;
+      height: 300px;width: 23%; padding: 5px 0px 15px; padding-bottom: 120px; }
+.box1{border: 2px solid white; background-color: white;
+        height: 300px;width: 23%; padding: 5px 0px 15px; padding-bottom: 120px; }
+.boximg{height: 200px; margin-top: 1rem; margin-bottom: 2rem;
+    font-size: 1rem;background-size:contain;}
+.boxcontent{margin-left: 1rem; margin-right: 1rem;}
+.boxcontent p{color: #007185;}
+.footerpanel{height: 300px;background-color: #1a2836;
+    display: flex; justify-content: space-evenly;
+     color: white;}
+.footpanel2{height: 70px;background-color: #222f3d;
+    display: flex; justify-content: center; align-items: center;
+     color: white; border-top: 0.5px solid white;
+
+}
+ul{margin-top: 20px;}
+ul a{display: block;margin-top: 10px;
+     font-size: 0.85rem; color: #dddddd;}
+.footpanel3{
+    background-color: #0f1111; color: white; height: 80px;
+}
+.logo2 {
+    background-image:url("images\\amazon.png") ;
+    background-size: cover;
+    height: 30px; width: 100px;
+  }
+.pages{font-size: 0.85rem; text-align: center; padding-top: 25px;
+    display: flex; justify-content: space-evenly;}
+.copyright{padding-top: 5px;font-size: 0.85rem; text-align: center; padding-top: 25px;
+    display: flex; justify-content:center;}
+
+
+    /*forsign*/
+.logo3 {
+        background-image:url("images\\logoblack.png");
+        height: 50px;width: 100px;
+        background-size: cover; display: flex; justify-content: center;        
+}
+.form1{
+    border: 1px solid rgb(232, 220, 220); 
+    border-radius: 5px; height: 400px;width: 350px;font-size: 20px;
+    display: block;
+    padding-left: 2px;
+    padding-bottom: 2px;  
+}
+.cont input{ display: flex; justify-content:center; align-items: center;
+   border-radius: 4px; width: 250px; height: 25px; font-size: 15px;
+}
